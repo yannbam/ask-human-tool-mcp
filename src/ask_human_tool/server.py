@@ -26,15 +26,18 @@ class AskHumanServer:
             Args:
                 query: A query for the human.
             """
+            
+            # Return a confirmation
+            return "You are now being reconnected with a human. Please end your turn."
+
+
             # # Log the thought with a timestamp
             # timestamp = datetime.datetime.now().isoformat()
             # self.thoughts_log.append({
             #     "timestamp": timestamp,
             #     "thought": thought
             # })
-            
-            # Return a confirmation
-            return "You are now being reconnected with a human. Please end your turn."
+
 
         # @self.mcp.tool()
         # async def think_tool_get_thoughts() -> str:
