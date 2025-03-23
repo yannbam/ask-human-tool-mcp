@@ -3,9 +3,9 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mcp-think-tool"
+name = "ask-human-tool-mcp"
 version = "0.1.0"
-description = "An MCP server implementing the think tool for Claude and other LLMs"
+description = "An MCP server implementing the ask human tool for Claude and other LLMs"
 authors = [
     {name = "Your Name", email = "your.email@example.com"}
 ]
@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-think-tool = "think_tool.server:main"
+mcp-think-tool = "ask_human_tool.server:main"
 
 [tool.black]
 line-length = 100
