@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-think-tool = "ask_human_tool.server:main"
+ask-human-tool-mcp = "ask_human_tool.server:main"
 
 [tool.black]
 line-length = 100
